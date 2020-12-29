@@ -31,6 +31,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter'
 
+    Plug 'norcalli/nvim-colorizer.lua'
+
+    Plug 'junegunn/rainbow_parentheses.vim'
+
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
+
 call plug#end()
 
 " Automatically install missing plugins on startup
