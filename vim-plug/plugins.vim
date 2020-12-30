@@ -40,6 +40,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
 
+    Plug 'honza/vim-snippets'
+
 call plug#end()
 
 " Automatically install missing plugins on startup
