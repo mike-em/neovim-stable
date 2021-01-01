@@ -42,6 +42,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'honza/vim-snippets'
 
+    Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
 call plug#end()
 
 " Automatically install missing plugins on startup
