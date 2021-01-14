@@ -52,6 +52,7 @@ else
   nnoremap <silent> <C-c> <Esc>
   " <TAB>: completion.
   inoremap <silent> <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+  inoremap <silent> <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<TAB>"
   inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
   " Better window navigation
