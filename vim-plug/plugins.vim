@@ -44,6 +44,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
+    Plug 'justinmk/vim-sneak'
+
 call plug#end()
 
 " Automatically install missing plugins on startup
