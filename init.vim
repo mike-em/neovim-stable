@@ -9,4 +9,5 @@ source $HOME/.config/nvim/plug-config/signify.vim
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/sneak.vim
+source $HOME/.config/nvim/plug-config/startify.vim
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua

@@ -46,6 +46,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'justinmk/vim-sneak'
 
+    Plug 'mhinz/vim-startify', {'branch': 'center'}
+
 call plug#end()
 
 " Automatically install missing plugins on startup
