@@ -9,13 +9,16 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
+    " Plug 'sheerun/vim-polyglot'
     " File Explorer
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
 
     Plug 'morhetz/gruvbox'
+    Plug 'joshdick/onedark.vim'
+
+    Plug 'puremourning/vimspector'
 
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -47,6 +50,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'justinmk/vim-sneak'
 
     Plug 'mhinz/vim-startify', {'branch': 'center'}
+
+    Plug 'nvim-treesitter/nvim-treesitter'
+
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-telescope/telescope.nvim'
+    
+    " git lens
+    Plug 'APZelos/blamer.nvim'
 
 call plug#end()
 

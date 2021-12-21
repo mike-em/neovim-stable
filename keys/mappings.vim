@@ -72,25 +72,32 @@ else
   inoremap <C-l> <C-\><C-N><C-w>l
   tnoremap <Esc> <C-\><C-n>
 
+
+  nnoremap <Leader>\ :vertical resize +5<CR>
+  nnoremap <Leader>` :vertical resize -5<CR>
+
+  nnoremap <Leader>; :vsplit<CR>
+  nnoremap <Leader>= :split<CR>
+
   " Use alt + hjkl to resize windows
   " nnoremap <silent> <M-j>    :resize -2<CR>
   " nnoremap <silent> <M-k>    :resize +2<CR>
   " nnoremap <silent> <M-h>    :vertical resize -2<CR>
   " nnoremap <silent> <M-l>    :vertical resize +2<CR>
 
-  nnoremap <silent> <C-Up>    :resize -2<CR>
-  nnoremap <silent> <C-Down>  :resize +2<CR>
-  nnoremap <silent> <C-Left>  :vertical resize -2<CR>
-  nnoremap <silent> <C-Right> :vertical resize +2<CR>
+  " nnoremap <silent> <C-Up>    :resize -2<CR>
+  " nnoremap <silent> <C-Down>  :resize +2<CR>
+  " nnoremap <silent> <C-Left>  :vertical resize -2<CR>
+  " nnoremap <silent> <C-Right> :vertical resize +2<CR>
 
-  let g:elite_mode=0                      " Disable arrows"
-  " Disable arrow movement, resize splits instead.
-  if get(g:, 'elite_mode')
-      nnoremap <C-Up>    :resize -2<CR>
-      nnoremap <C-Down>  :resize +2<CR>
-      nnoremap <C-Left>  :vertical resize -2<CR>
-      nnoremap <C-Right> :vertical resize +2<CR>
-  endif
+  " let g:elite_mode=0                      " Disable arrows"
+  " " Disable arrow movement, resize splits instead.
+  " if get(g:, 'elite_mode')
+  "     nnoremap <C-Up>    :resize -2<CR>
+  "     nnoremap <C-Down>  :resize +2<CR>
+  "     nnoremap <C-Left>  :vertical resize -2<CR>
+  "     nnoremap <C-Right> :vertical resize +2<CR>
+  " endif
 
 endif
 
@@ -106,6 +113,12 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+
+" Remap for telescope
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
 " Use K to show documentation in preview window
 nnoremap <silent> K :call <SID>show_documentation()<CR>

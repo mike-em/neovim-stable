@@ -7,7 +7,7 @@ set encoding=utf-8                      " The encoding displayed
 set pumheight=10                        " Makes popup menu smaller
 set fileencoding=utf-8                  " The encoding written to file
 set ruler              			            " Show the cursor position all the time
-set spell                               " Spell check
+" set spell                               " Spell check
 set spelllang=en                        " Language spell check
 set cmdheight=2                         " More space for displaying messages
 set iskeyword+=-                      	" treat dash separated words as a word text object"
@@ -37,6 +37,10 @@ set timeoutlen=500                      " By default timeoutlen is 1000 ms
 " set formatoptions-=cro                  " Stop newline continuation of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 "set autochdir                           " Your working directory will always be the same as your working directory
+set foldmethod=indent   
+set foldnestmax=10
+set nofoldenable
+set foldlevel=5
 
 set breakindent
 set formatoptions=l
