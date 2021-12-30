@@ -58,6 +58,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     
     " git lens
     Plug 'APZelos/blamer.nvim'
+    Plug 'goolord/alpha-nvim'
 
 call plug#end()
 

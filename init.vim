@@ -15,3 +15,11 @@ source $HOME/.config/nvim/plug-config/blamer.vim
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 luafile $HOME/.config/nvim/plug-config/nvim-treesitter.lua
 luafile $HOME/.config/nvim/plug-config/telescope.lua
+luafile $HOME/.config/nvim/plug-config/alpha.lua
+
+" function! s:explore()
+"   sleep 500m
+"   call execute('CocCommand explorer')
+" endfunction
+
+" autocmd VimEnter * call s:explore()

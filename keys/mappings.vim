@@ -79,6 +79,10 @@ else
   nnoremap <Leader>; :vsplit<CR>
   nnoremap <Leader>= :split<CR>
 
+  nnoremap <Leader>q :qa<CR>
+  nnoremap <Leader>w :w<CR>
+  nnoremap <Leader>a <cmd>Alpha<CR>
+
   " Use alt + hjkl to resize windows
   " nnoremap <silent> <M-j>    :resize -2<CR>
   " nnoremap <silent> <M-k>    :resize +2<CR>
