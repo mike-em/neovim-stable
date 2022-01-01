@@ -124,6 +124,14 @@ nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
+" Folding
+" zc - close a fold
+" zo - open fold
+" za - toggle fold
+" zC, zO, zA similar but for all folds at level
+" zR - opens all folds
+" zM - close all folds
+
 " Use K to show documentation in preview window
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 

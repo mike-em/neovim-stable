@@ -52,6 +52,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-startify', {'branch': 'center'}
 
     Plug 'nvim-treesitter/nvim-treesitter'
+    Plug 'folke/which-key.nvim'
 
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
