@@ -91,6 +91,7 @@ local mappings = {
     "Find files",
   },
   ["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
+  ["g"] = { "<cmd>:Gdiff<cr>", "Git changes" },
 
   s = {
     name = "Search",

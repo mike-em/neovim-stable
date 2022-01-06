@@ -80,6 +80,7 @@ else
   nnoremap <Leader>= :split<CR>
 
   nnoremap <Leader>q :qa<CR>
+  nnoremap <Leader>r :q<CR>
   nnoremap <Leader>w :w<CR>
   nnoremap <Leader>a <cmd>Alpha<CR>
 
