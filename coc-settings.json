@@ -10,8 +10,7 @@
     "html",
     "yaml",
     "json",
-    "python",
-    "sql"
+    "python"
   ],
 
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],

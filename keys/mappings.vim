@@ -144,5 +144,17 @@ function! s:show_documentation()
   endif
 endfunction
 
+" let g:no_highlight_group_for_current_word=["Statement", "Comment", "Type", "PreProc", "Icon"]
+" function s:HighlightWordUnderCursor()
+"     let l:syntaxgroup = synIDattr(synIDtrans(synID(line("."), stridx(getline("."), expand('<cword>')) + 1, 1)), "name")
 
-noremap <leader>bd :%bd\|e#\|bd#<cr>\|'"
+"     if (index(g:no_highlight_group_for_current_word, l:syntaxgroup) == -1)
+"         exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
+"     else
+"         exe 'match IncSearch /\V\<\>/'
+"     endif
+" endfunction
+
+" autocmd CursorMoved * call s:HighlightWordUnderCursor()
+
+noremap <leader>ra :%bd\|e#\|bd#<cr>\|'"

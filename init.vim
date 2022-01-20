@@ -12,6 +12,7 @@ source $HOME/.config/nvim/plug-config/sneak.vim
 source $HOME/.config/nvim/plug-config/startify.vim
 source $HOME/.config/nvim/plug-config/vimspector.vim
 source $HOME/.config/nvim/plug-config/blamer.vim
+source $HOME/.config/nvim/plug-config/word-unter-cursor.vim
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 luafile $HOME/.config/nvim/plug-config/nvim-treesitter.lua
 luafile $HOME/.config/nvim/plug-config/telescope.lua

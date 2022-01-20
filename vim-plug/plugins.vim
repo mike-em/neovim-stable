@@ -60,6 +60,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " git lens
     Plug 'APZelos/blamer.nvim'
     Plug 'goolord/alpha-nvim'
+    
+    " highlight word under the cursor
+    Plug 'dominikduda/vim_current_word'
 
 call plug#end()
 
