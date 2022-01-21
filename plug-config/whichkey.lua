@@ -94,7 +94,7 @@ local mappings = {
 
   g = {
     ["d"] = { "<cmd>:Gdiffsplit<cr>", "Git changes" },
-    ["t"] = {"<cmd>:Git difftool<cr>", "Diff tool"}
+    ["t"] = { "<cmd>:Git difftool<cr>", "Diff tool" }
   },
 
   s = {
