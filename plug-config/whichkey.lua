@@ -91,12 +91,12 @@ local mappings = {
     "Find files",
   },
   ["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
-
   g = {
+    name = "Git",
+    ["g"] = { "<cmd>:Git<cr>", "Git" },
     ["d"] = { "<cmd>:Gdiffsplit<cr>", "Git changes" },
     ["t"] = { "<cmd>:Git difftool<cr>", "Diff tool" }
   },
-
   s = {
     name = "Search",
     b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
