@@ -17,6 +17,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'morhetz/gruvbox'
     Plug 'joshdick/onedark.vim'
+    " Using Vim-Plug
+    " Plug 'navarasu/onedark.nvim'
 
     Plug 'puremourning/vimspector'
 
@@ -30,8 +32,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'tpope/vim-commentary'
 
-    " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    " Plug 'junegunn/fzf.vim'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter'
 
     Plug 'norcalli/nvim-colorizer.lua'

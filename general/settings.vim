@@ -9,7 +9,7 @@ set fileencoding=utf-8                  " The encoding written to file
 set ruler              			            " Show the cursor position all the time
 " set spell                               " Spell check
 set spelllang=en                        " Language spell check
-set cmdheight=2                         " More space for displaying messages
+set cmdheight=1                         " More space for displaying messages
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set mouse=a                             " Enable your mouse
 set splitbelow                          " Horizontal splits will automatically be below
@@ -41,6 +41,7 @@ set foldmethod=indent
 set foldnestmax=10
 set nofoldenable
 set foldlevel=5
+set shell=zsh
 
 set breakindent
 set formatoptions=l

@@ -75,6 +75,7 @@ else
 
   nnoremap <Leader>\ :vertical resize +5<CR>
   nnoremap <Leader>` :vertical resize -5<CR>
+  nnoremap <Leader>vr :vertical resize 50<CR>
 
   nnoremap <Leader>; :vsplit<CR>
   nnoremap <Leader>= :split<CR>
