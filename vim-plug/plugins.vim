@@ -16,6 +16,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
 
     Plug 'morhetz/gruvbox'
+    Plug 'lifepillar/vim-gruvbox8'
     Plug 'joshdick/onedark.vim'
 
     Plug 'puremourning/vimspector'
@@ -26,12 +27,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
 
-    " Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
     Plug 'tpope/vim-commentary'
 
-    " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    " Plug 'junegunn/fzf.vim'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter'
 
     Plug 'norcalli/nvim-colorizer.lua'

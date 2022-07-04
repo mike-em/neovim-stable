@@ -9,7 +9,7 @@ set fileencoding=utf-8                  " The encoding written to file
 set ruler              			            " Show the cursor position all the time
 " set spell                               " Spell check
 set spelllang=en                        " Language spell check
-set cmdheight=2                         " More space for displaying messages
+set cmdheight=1                         " More space for displaying messages
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set mouse=a                             " Enable your mouse
 set splitbelow                          " Horizontal splits will automatically be below
@@ -36,11 +36,16 @@ set timeoutlen=500                      " By default timeoutlen is 1000 ms
 " set nowrap                              " Display long lines as just one line
 " set formatoptions-=cro                  " Stop newline continuation of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
-"set autochdir                           " Your working directory will always be the same as your working directory
+set autochdir                           " Your working directory will always be the same as your working directory
 set foldmethod=indent   
 set foldnestmax=10
 set nofoldenable
 set foldlevel=5
+
+" Don't offer to open certain files/directories
+set wildignore+=*.bmp,*.gif,*.ico,*.jpg,*.png,*.ico
+set wildignore+=*.pdf,*.psd
+set wildignore+=**/node_modules/*,bower_components/*
 
 set breakindent
 set formatoptions=l
