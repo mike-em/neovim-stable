@@ -17,6 +17,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'morhetz/gruvbox'
     Plug 'lifepillar/vim-gruvbox8'
+    Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
     Plug 'joshdick/onedark.vim'
 
     Plug 'puremourning/vimspector'
